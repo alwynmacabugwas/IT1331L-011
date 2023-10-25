@@ -39,10 +39,19 @@ public class Attendee {
 		this.age = age;
 	}
 	
+	public boolean getSurveyEligibilityTag() {
+		return surveyEligibilityTag;
+	}
+	
+	public void setSurveyEligibilityTag(boolean surveyEligibilityTag) {
+		this.surveyEligibilityTag = surveyEligibilityTag;
+	}
+	
 	public String attendeeId;
 	public String firstName;
 	public String middleName;
 	public String lastName;
 	public String course;
 	public int age;
+	public boolean surveyEligibilityTag;
 } 
